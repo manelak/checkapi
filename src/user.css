@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins') ;
+
+
+h1{
+    
+    font-weight: 500;
+    color: orange;
+    
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+    
+
+
+.list ul li{
+    
+    
+    color: white;
+    border-radius: unset;
+    padding: 0 0.5em;
+    margin: 4px 0;
+    border-left:2px solid red;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .list ul li::before{
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    transform-origin: left;
+    background-color: yellow;
+    
+    transform: scaleX(0);
+    transition: 0.5s;
+  }
+  .list ul li:hover::before{
+    transform: scaleX(1);
+  }
+  .list ul li:hover{
+    left: 10px;
+  }

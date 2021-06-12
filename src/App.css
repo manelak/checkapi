@@ -13,8 +13,10 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5dc6a33f-f882-4678-ab30-a64639f3c0be/dcimjp1-f9a54225-db6c-44a7-b1e3-7d6046248ca3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVkYzZhMzNmLWY4ODItNDY3OC1hYjMwLWE2NDYzOWYzYzBiZVwvZGNpbWpwMS1mOWE1NDIyNS1kYjZjLTQ0YTctYjFlMy03ZDYwNDYyNDhjYTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gY0oHGotVLldBU7BfHyRdRA8lhRDMvssNMGmik2NU3M');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
